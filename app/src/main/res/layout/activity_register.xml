@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+    <RelativeLayout
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_marginLeft="-35dp"
+        android:layout_marginTop="-80dp"
+        android:layout_marginRight="-35dp"
+        android:background="@drawable/background">
+
+        <TextView
+            android:id="@+id/registertext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="110dp"
+            android:drawableRight="@drawable/ic_baseline_person_outline_24"
+            android:drawablePadding="5dp"
+            android:text="Create Your Account"
+            android:textColor="#cb9bd1"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="120dp"
+            android:gravity="center"
+            android:text="Miola-Room"
+            android:textColor="#9d9ad9"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="450dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/background1">
+
+        <EditText
+            android:id="@+id/FullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/border1"
+            android:hint="Enter your FullName"
+            android:inputType="textEmailAddress"
+            android:padding="18dp"
+            android:textColor="#70000000"
+            android:textSize="10dp" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="78dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/border1"
+            android:hint="Enter your email"
+            android:inputType="textEmailAddress"
+            android:padding="18dp"
+            android:textColor="#70000000"
+            android:textSize="10dp" />
+
+        <EditText
+            android:id="@+id/departement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="143dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/border1"
+            android:hint="Enter your Departement "
+            android:inputType="textEmailAddress"
+            android:padding="18dp"
+            android:textColor="#70000000"
+            android:textSize="10dp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="210dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/border1"
+            android:hint="Enter your password"
+            android:inputType="textPassword"
+            android:padding="18dp"
+            android:textColor="#70000000"
+            android:textSize="10dp" />
+
+        <EditText
+            android:id="@+id/Role"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="278dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/border1"
+            android:hint="Your Role ?"
+            android:inputType="textPassword"
+            android:padding="18dp"
+            android:textColor="#70000000"
+            android:textSize="10dp" />
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="340dp"
+            android:layout_marginRight="8dp"
+            android:background="@drawable/border"
+            android:backgroundTint="#50FFA500"
+            android:padding="12dp"
+            android:text="REGISTER"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/loginHere"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="400dp"
+            android:clickable="true"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Already have account? Login Here"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#80000000"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+</RelativeLayout>
